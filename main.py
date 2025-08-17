@@ -1,4 +1,5 @@
-#import requests
+# Импорт библиотек и модулей
+import requests
 import argparse
 import json
 from typing import Optional
