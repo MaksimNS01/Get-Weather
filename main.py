@@ -1,4 +1,4 @@
-import requests
+#import requests
 import argparse
 import json
 from typing import Optional
