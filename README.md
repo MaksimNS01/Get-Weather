@@ -29,25 +29,25 @@ Run the script from the command line with optional arguments.
 ### Basic Usage
 To get weather information for the default location (Tomsk):
 ```bash
-python weather.py
+python main.py
 ```
 
 ### Specify a City
 To get weather information for a specific city:
 ```bash
-python weather.py -c "New York"
+python main.py -c "New York"
 ```
 
 ### Save a Weather Image
 To save a PNG image of the weather forecast:
 ```bash
-python weather.py -c "New York" --image
+python main.py -c "New York" --image
 ```
 
 ### Custom Filename for the Image
 To specify a custom filename for the PNG image:
 ```bash
-python weather.py -c "New York" --image --filename "ny_weather.png"
+python main.py -c "New York" --image --filename "ny_weather.png"
 ```
 
 ### Command-Line Arguments
